@@ -1,0 +1,33 @@
+.marquee-container {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100vw;
+  background: #f8f8f8;
+  
+
+}
+
+.marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+  margin-bottom: 30px;
+}
+
+.marquee-content {
+  display: inline-block;
+  padding: 15px 50px; 
+  font-size: 28px;
+  font-weight: bold;
+  color: #010101;
+}
+  
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

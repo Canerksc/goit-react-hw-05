@@ -1,0 +1,36 @@
+.search-form {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  padding: 10px 14px;
+  width: 280px;
+  border: 2px solid #ccc;
+  border-radius: 6px 0 0 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #c10202; /* odaklanınca kırmızı vurgu */
+}
+
+.search-button {
+  padding: 10px 16px;
+  margin-left: -1px; /* input ile birleşsin */
+  border: 2px solid #c10202;
+  background-color: #c10202;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #a10101;
+  border-color: #a10101;
+}

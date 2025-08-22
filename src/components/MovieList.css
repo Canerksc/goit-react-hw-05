@@ -1,0 +1,35 @@
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 6 kart 1 satırda */
+  gap: 20px;                             /* kartlar arası boşluk */
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+  justify-items: center;                  /* her kart ortalanmış */
+}
+
+.movie-item {
+  width: 100%;
+  max-width: 42vh; 
+}
+
+.movie-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-poster {
+  width: 100%;
+  aspect-ratio: 2/3;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.movie-title {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+}
